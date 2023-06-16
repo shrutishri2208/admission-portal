@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <header class="admission-header">
+        <img src="./assets/college-logo.png" height="150" width="150" />
+        <h1 style="font-size: 3rem;">Brookside University</h1>
+    </header>
+    <div class="admin-container">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h2 id="admin-table-heading"></h2>
+            <button onclick="exitAdmin()" id="exit-admin">Exit</button>
+        </div>
+        <table id="admin-table" class="admin-table">
+        </table>
+    </div>
+
+    <script src="./admin.js"></script>
+</body>
+
+</html>
